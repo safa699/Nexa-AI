@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_splash"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:src="@drawable/ic_studymate_logo"
+        android:contentDescription="StudyMate AI logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="StudyMate AI"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:letterSpacing="0.02"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Your smarter study companion"
+        android:textColor="#EEE5FF"
+        android:textSize="15sp"/>
+
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="42dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/white"/>
+
+</LinearLayout>
